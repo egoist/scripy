@@ -2,6 +2,8 @@
 
 > Run scripts in child process.
 
+![preview](https://ooo.0o0.ooo/2016/07/21/5790f46c54910.gif)
+
 ## Install
 
 ```bash
