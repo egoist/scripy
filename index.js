@@ -20,8 +20,9 @@ module.exports = function (string, options) {
 
   options = options || {}
   const displayName = options.displayName || command.scriptName
+  delete options.displayName
 
-  const cmd = spawn(command.scriptName, command.args)
+  const cmd = spawn(command.scriptName, command.args, options)
 
   cmd.stdout.on('data', data => {
     console.log(chalk.green(`[${displayName}] `) + data)
