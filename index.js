@@ -24,11 +24,11 @@ module.exports = function (string, options) {
   const cmd = spawn(command.scriptName, command.args)
 
   cmd.stdout.on('data', data => {
-    console.log(chalk.green(`[${displayName}] ${data}`))
+    console.log(chalk.green(`[${displayName}] `) + data)
   })
 
   cmd.stderr.on('data', data => {
-    console.log(chalk.red(`[${displayName}] ${data}`))
+    console.log(chalk.red(`[${displayName}] `) + data)
   })
 
   cmd.on('close', code => {
