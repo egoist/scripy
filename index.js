@@ -1,5 +1,5 @@
 'use strict'
-const spawn = require('child_process').spawn
+const spawn = require('cross-spawn')
 const chalk = require('chalk')
 const spawnArgs = require('spawn-args')
 
