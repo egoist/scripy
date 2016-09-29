@@ -41,6 +41,10 @@ Type: `string`
 
 The name to display while loggin messages into the console, default is the parsed script name from `command`. eg: `npm run build`'s scriptName and displayName both are `npm`.
 
+### scripy.sync(command, [options])
+
+Same as `scripy()` but using `spawn.sync`.
+
 ## License
 
 MIT © [EGOIST](https://github.com/egoist)
