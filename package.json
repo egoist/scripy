@@ -1,6 +1,6 @@
 {
   "name": "scripy",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Run in child process.",
   "license": "MIT",
   "repository": "egoist/scripy",
